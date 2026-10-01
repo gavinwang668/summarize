@@ -6,6 +6,7 @@ settings:
 
 overrides:
   adm-zip: 0.6.1
+  brace-expansion@^1.0.0: 1.1.21
   image-size: 2.0.4
   js-yaml@^4.0.0: 4.3.2
   nanoid: 3.3.19
@@ -110,8 +111,8 @@ importers:
         specifier: ^15.0.2
         version: 15.0.2
       mediabunny:
-        specifier: 1.59.0
-        version: 1.59.0
+        specifier: 1.59.1
+        version: 1.59.1
       preact:
         specifier: 10.29.8
         version: 10.29.8
@@ -1683,8 +1684,8 @@ packages:
   bpe-lite@0.5.2:
     resolution: {integrity: sha512-gyQ+nptbm7OIWuCBxtE/8a0f0oQk0OEe6rRCnBGvGtLgwZrKj8qUt7A+EENU9wOjZbDtD2W4rwFEkQ1LRxkVJQ==}
 
-  brace-expansion@1.1.18:
-    resolution: {integrity: sha512-Edep/X9fGqVNmzKBVsDYIOtD+z1tuezV70LBjdCst9Tqu76lsnvRiZ6oTic1n+/BIwX6QDGAO94PN4N2SADvtw==}
+  brace-expansion@1.1.21:
+    resolution: {integrity: sha512-9zeA+KLZNNzglF2TPKRQEDyx6Yby7daAkuy8MiPzpXPsYDWi/DRM8jmwUDxokQjYqBpv5DgPiwD4h4ZZSy1Ujw==}
 
   buffer-equal-constant-time@1.0.1:
     resolution: {integrity: sha512-zRpUiDwd/xk6ADqPMATG8vc9VPrkck7T07OIx0gnjmJAnHnTVXNQG3vfvWNuiZIkwu9KrKdA1iJKfsfTVxE6NA==}
@@ -2669,8 +2670,8 @@ packages:
   mdurl@2.1.0:
     resolution: {integrity: sha512-1+HBaOx0zi/dQWht8rNv9MYf9qqpqL/kxI0hXImU6Y547zM6Sni8BQibt7ifgMcYtQg41ao3Ivd6cnSM86inpg==}
 
-  mediabunny@1.59.0:
-    resolution: {integrity: sha512-m+nhRFI9gRQaDP22GCZwwL1nTtoAJtzHB7XzZmlff4P17+F/i5wZnDu4cc09a4ae5x41Px/C/GWdiROQHVM4eQ==}
+  mediabunny@1.59.1:
+    resolution: {integrity: sha512-K6vFvOZ7x36fqP3MaFFWFLYEfGF192qY4LQ6QB+L5eB74SUJjEgq9ZRztYpk9RJOjSyxooPZBV4WE0k8PKcjaQ==}
 
   mime@4.1.0:
     resolution: {integrity: sha512-X5ju04+cAzsojXKes0B/S4tcYtFAJ6tTMuSPBEn9CPGlrWr8Fiw7qYeLT0XyH80HSoAoqWCaz+MWKh22P7G1cw==}
@@ -4826,7 +4827,7 @@ snapshots:
 
   bpe-lite@0.5.2: {}
 
-  brace-expansion@1.1.18:
+  brace-expansion@1.1.21:
     dependencies:
       balanced-match: 1.0.2
       concat-map: 0.0.1
@@ -5779,7 +5780,7 @@ snapshots:
 
   mdurl@2.1.0: {}
 
-  mediabunny@1.59.0:
+  mediabunny@1.59.1:
     dependencies:
       '@types/dom-mediacapture-transform': 0.1.12
       '@types/dom-webcodecs': 0.1.13
@@ -5788,7 +5789,7 @@ snapshots:
 
   minimatch@3.1.5:
     dependencies:
-      brace-expansion: 1.1.18
+      brace-expansion: 1.1.21
 
   minimist@1.2.8: {}
 
