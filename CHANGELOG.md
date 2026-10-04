@@ -1,5 +1,7 @@
 # Changelog
 
+## 0.25.2 - Unreleased
+
 ## 0.25.1 - 2026-10-03
 
 **Highlights:** maximum reasoning effort for GPT-6 models and reliable Homebrew companion launchers across upgrades.
